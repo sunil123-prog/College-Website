@@ -29,49 +29,49 @@ a:hover{
 .con{
     width: 100%;
     height: 110vh;
-    background-image: url('../gallery/pic1.jpg');
+    background-image: url('./gallery/pic1.jpg');
     background-size: 100% 100%;
     animation: demo 20s linear infinite;
 }    
 @keyframes demo {
     0%{
-        background: url('../gallery/pic1.jpg'); 
+        background: url('./gallery/pic1.jpg'); 
         background-size: 100% 100%;
     }
     10%{
-        background: url('../gallery/pic2.jpg');
+        background: url('./gallery/pic2.jpg');
         background-size: 100% 100%;
     }
     20%{
-        background: url('../gallery/pic3.jpg');
+        background: url('./gallery/pic3.jpg');
         background-size: 100% 100%;
     }
     30%{
-        background: url('../gallery/pic4.jpg');
+        background: url('./gallery/pic4.jpg');
         background-size: 100% 100%;
     }
     40%{
-        background: url('../gallery/pic5.jpg');
+        background: url('./gallery/pic5.jpg');
         background-size: 100% 100%;
     }
     50%{
-        background: url('../gallery/pic12.jpg');
+        background: url('./gallery/pic12.jpg');
         background-size: 100% 100%;
     }
     60%{
-        background: url('../gallery/pic7.jpg');
+        background: url('./gallery/pic7.jpg');
         background-size: 100% 100%;
     }
     70%{
-        background: url('../gallery/pic8.jpeg');
+        background: url('./gallery/pic8.jpeg');
         background-size: 100% 100%;
     }
     80%{
-        background: url('../gallery/pic13.jpg');
+        background: url('./gallery/pic13.jpg');
         background-size: 100% 100%;
     }
     90%{
-        background: url('../gallery/pic10.jpg');
+        background: url('./gallery/pic10.jpg');
         background-size: 100% 100%;
     }
 
