@@ -1,0 +1,498 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #3c97d4;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+@media screen and (max-width :500px) {
+    nav{
+        flex-direction: column;
+        height: 55vh;
+        background-color: blueviolet;
+        color: white;
+        font-size: 25px;
+    }
+    
+}
+@media screen and (min-width :501px) and (max-width :600px) {
+    nav{
+        flex-direction: wrap;
+        background-color: bisque;
+        font-size: 18px;
+        color: crimson;
+        height: 17vh;
+    }
+    nav div{
+        width: 49%;
+        text-align: center;
+    }
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+nav .image img{
+    width: 150px;
+    height: 150px;
+}
+nav>div{
+    width: 15%;
+    text-align: center;
+}
+.course{
+    position: relative;
+}
+.sub1,.sub2,.sub3,.sub4{
+    position: absolute;
+    width: 100%;
+    background-color: darkcyan;
+    display: none;
+    gap: 5px;
+    flex-direction: column;
+    padding: 5px 0px;
+    border-radius: 15px;
+}
+.sub1>div:hover,.sub2>div:hover,.sub3>div:hover,.sub4>div:hover{
+    background-color: darkgoldenrod;
+    color: brown;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all linear 10s;
+}
+.course:hover .sub1{
+    display: flex;
+}
+.Engineering:hover .sub2{
+    display: flex;
+}
+.sub2{
+    left: 100%;
+    top: 0px;
+}
+.BTech:hover .sub3{
+    display: flex;
+}
+.sub3{
+    left: 100%;
+    top: 0px;
+}
+.MTech:hover .sub4{
+    display: flex;
+}
+.sub4{
+    left: 100%;
+    top: 35px;
+}
+h2{
+    text-align: center;
+    color: cadetblue;
+    position: relative;
+    top: 40px;
+
+}
+@media screen and (max-width :500px) {
+    .con table{
+        margin-top: 60px;
+        width: 20%;
+        position: relative;
+        left: 0px;
+        flex-direction: column;
+
+    }
+    
+}
+
+.con table{
+    margin-left: 30px;
+    width: 80%;
+    border: 2px solid gray;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+tr,td,th{
+    height: 40px;
+    border: 2px solid gray;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 20px;
+}
+.ta{
+    background-color: rgb(223, 62, 164);
+}
+.ta:hover{
+    background-color: deepskyblue;
+
+}
+.ta td:hover{
+    background-color: chocolate;
+    font-size: 20px;
+
+}
+.ta1{
+    background-color: darkgoldenrod;
+    border-color: black;
+
+}
+.ta1:hover{
+    background-color: beige;
+}
+.ta1 td:hover{
+    background-color:darkslateblue;
+}
+.ta1 th:hover{
+    background-color: aliceblue;
+    
+}
+.t2{
+    border: 2px solid black;
+    background-color: rgba(130, 82, 174, 0.188);
+}
+.t2:hover{
+    background-color: rgba(149, 9, 9, 0.748);
+}
+.t2 th:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+.content{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.t1{
+    position: relative;
+    top: 150px;
+}
+.h1{
+    position: relative;
+    top: 120px;
+}
+.h2{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    position: relative;
+    top: 320px;
+    left: 170px;
+    color: cadetblue;
+}
+.t2{
+    position: relative;
+    top: 350px;
+    left: 400px;
+}
+.td1{
+    vertical-align: top;
+}
+.con1 .h3{
+    position: relative;
+    top: 40px;
+    text-align: left;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.con1 .para1{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    
+}
+.con1 h4{
+    position: relative;
+    top: 50px;
+    text-align: left;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+.con1 .schorship{
+    width: 80%;
+    height: 2000px;
+    left: 0px;
+    margin: 6% 10%;
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    position: relative;
+    top: 350px;
+    padding: 0px 20px;
+}
+.con1 .para2{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    
+}.con1 .schorship .con2{
+    width: 70%;
+    height: 1450px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 20px 20px;
+    
+
+}
+.con2 .t3{
+    margin: auto;
+    border: 2px solid gold;
+    background-color: aliceblue;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.con2 .t4 {
+    position: relative;
+    top: 90px;
+    margin: auto;
+    background-color: #3c97d4;
+}
+.con1 .h31{
+    position: relative;
+    top: 150px;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+.con1 .para3{
+    position: relative;
+    top: 200px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(14, 88, 185);
+    left: 0px;
+}
+.con3 .ECE h3{
+    color: brown;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.con3{
+    width: 70%;
+    height: 420px;
+    background-color: aquamarine;
+    position: relative;
+    top: 350px;
+    left: 220px;
+
+}
+.con3 h5{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: chocolate;
+    font-size: 25px;
+}
+.con3 .list1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-bottom: 20px;
+}
+.con3 .head2{
+    position: relative;
+    top: 100px;
+}
+.con3 .list2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 20px;
+}
+.con3 .head3{
+    position: relative;
+    top: 100px;
+}
+.con3 .list3{
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.con4{
+    width: 70%;
+    height: 250px;
+    background-color: darkorange;
+    position: relative;
+    top: 400px;
+    left: 220px;
+
+}
+.con4 .IT h3{
+    color: rgb(158, 15, 63);
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.con4 h5{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: darkgray;
+    font-size: 25px;
+}
+.con4 .list1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-bottom: 20px;
+    color: azure;
+}
+
+.con5{
+    width: 70%;
+    height: 350px;
+    background-color: rgb(11, 163, 140);
+    position: relative;
+    top: 450px;
+    left: 220px;
+
+}
+.con5 .Civil h3{
+    color: rgb(158, 15, 63);
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.con5 h5{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: darkgray;
+    font-size: 25px;
+}
+.con5 .list1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-bottom: 20px;
+    color: azure;
+}
+.con5 .head3{
+    position: relative;
+    top: 100px;
+}
+.con5 .list3{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    color: aliceblue;
+}
+.head4{
+    position: relative;
+    top: 580px;
+    color: red;
+}
+.con6{
+    width: 70%;
+    height: 1000px;
+    background-color: rgb(11, 163, 140);
+    position: relative;
+    top: 650px;
+    left: 220px;
+
+}
+.con6 .MCSE h3{
+    color: rgba(158, 15, 63, 0.519);
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.con6 h5{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: darkgray;
+    font-size: 25px;
+}
+.con6 .list1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-bottom: 20px;
+    color: azure;
+}
+.con6 .head3{
+    position: relative;
+    top: 100px;
+}
+.con6 .list3{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    color: aliceblue;
+}
+.con6 .MEE h3{
+    color: rgba(158, 15, 63, 0.519);
+    font-size: 25px;
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+.con6 #he1{
+    text-align: left;
+    position: relative;
+    top: 250px;
+    left: 30px;
+    color: darkgray;
+    font-size: 25px;
+}
+.con6 .list4{
+    position: relative;
+    top: 280px;
+    left: 100px;
+    padding-bottom: 20px;
+    color: azure;
+}
+.con6 .MCE h3{
+    color: rgba(158, 15, 63, 0.519);
+    font-size: 25px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+.con6 #he2{
+    text-align: left;
+    position: relative;
+    top: 320px;
+    left: 30px;
+    color: darkgray;
+    font-size: 25px;
+}
+.con6 .list5{
+    position: relative;
+    top: 350px;
+    left: 100px;
+    padding-bottom: 20px;
+    color: azure;
+}

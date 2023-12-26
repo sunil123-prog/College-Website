@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/place.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 175vh;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    width: 100%;
+    height: 25vh;
+    
+
+    
+
+}
+.id{
+    margin-left: 400px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav:hover{
+    border: 2px solid olivedrab;
+}
+a:hover{
+    font-size: 27px;
+    color: rebeccapurple;
+    text-shadow: 5px 5px 8px rgb(142, 9, 42);
+}
+.con1 .imge img{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+    border-radius: 8px;
+
+
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    position: relative;
+    top: 150px;
+    text-shadow: 1px 2px 2px red;
+    }
+    .para{
+        text-align: center;
+    
+    }
+    p{
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+        top: 170px;
+        text-align: center;
+        color: white;
+        padding: 2px 15px;
+
+        text-align: justify;
+    }
+
+.con1{
+    display: grid;
+    grid-template-columns: 2.3fr 2.3fr 2.3fr;
+    width: 360px;
+    height: 750px;
+    background-color: blue;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    border-radius: 8px;
+}
+.con1:hover{
+    box-shadow: 5px 5px 15px 10px rgb(119, 28, 119);
+}
+.con2{
+    display: grid;
+    grid-template-columns: 2.3fr;
+    width: 360px;
+    height: 750px;
+    background-color: rgb(30, 125, 49);
+    position: relative;
+    top: -500px;
+    left: 600px;
+    border-radius: 8px;
+}
+.con2:hover{
+    box-shadow: 5px 5px 15px 10px violet;
+}
+.con3{
+    display: grid;
+    grid-template-columns: 2.3fr;
+    width: 360px;
+    height: 750px;
+    background-color: coral;
+    position: relative;
+    top: -1250px;
+    left: 1050px;
+    border-radius: 8px;
+}
+.con3:hover{
+    box-shadow: 5px 5px 15px 10px violet;
+}
+.con1 .imge img{
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.con1 .imge img:hover{
+    transform: scale(1.1);
+    border: 1px solid goldenrod;
+}
+.con2 .imge1 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+    opacity: 86%;
+}
+.con2 .imge1 img:hover{
+    transform: scale(1.1);
+    border: 1px solid goldenrod;
+}
+.con3 .imge2 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+.con3 .imge2 img:hover{
+    transform: scale(1.1);
+    border: 1px solid goldenrod;
+    opacity: 0.5;
+}
+.con1 .imge p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+.con2 .imge1 p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+.con3 .imge2 p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+.con4{
+    display: grid;
+    grid-template-rows: 2.3fr;
+    width: 360px;
+    height: 700px;
+    background-color: rgb(29, 153, 151);
+    position: relative;
+    top: -1050px;
+    left: 150px;
+    border-radius: 8px;
+    
+}
+.con4:hover{
+    box-shadow: 5px 5px 15px 10px violet;
+}
+.con5{
+    display: grid;
+    grid-template-rows: 2.3fr;
+    width: 360px;
+    height: 700px;
+    background-color: rgb(16, 138, 28);
+    position: relative;
+    top: -1750px;
+    left: 600px;
+    border-radius: 8px;
+}
+.con5:hover{
+    box-shadow: 5px 5px 15px 10px violet;
+}
+.con6{
+    display: grid;
+    grid-template-rows: 2.3fr;
+    width: 360px;
+    height: 700px;
+    background-color: rgb(207, 56, 61);
+    position: relative;
+    top: -2450px;
+    left: 1050px;
+    border-radius: 8px;
+}
+.con6:hover{
+    box-shadow: 5px 5px 15px 10px violet;
+}
+.con4 .imge3 img{
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+
+}
+.con4 .imge3 img:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(179, 28, 53);
+}
+.con5 .imge4 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+}
+.con5 .imge4 img:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(179, 28, 53);
+}
+.con6 .imge5 img{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+}
+.con6 .imge5 img:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(179, 28, 53);
+}
+.con4 .imge3 p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+.con5 .imge4 p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+.con6 .imge5 p{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    text-align: justify;
+    text-indent: 5px;
+}
+span{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: -350px;
+    font-size: 30px;
+    box-sizing: none;
+}
+.cont{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    top: 300px;
+    left: -750px;
+    border: 2px solid orange;
+
+}
+.cont p{
+    position: relative;
+    top: 80px;
+    color: rgb(52, 34, 188);
+    font-size: 20px;
+}
+.cont2{
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: -500px;
+    border: 2px solid orange;
+}
+.cont2 p{
+    position: relative;
+    top: 80px;
+    color: rgb(52, 34, 188);
+    font-size: 20px;
+}
+.cont3{
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    background-color: white;
+    position: relative;
+    top: -100px;
+    left: -250px;
+    border: 2px solid orange;
+}
+.cont3 p{
+    position: relative;
+    top: 80px;
+    color: rgb(52, 34, 188);
+    font-size: 20px;
+}
+.cont4{
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    background-color: white;
+    position: relative;
+    top: -300px;
+    left: 0px;
+    border: 2px solid orange;
+}
+.cont4 p{
+    position: relative;
+    top: 80px;
+    color: rgb(52, 34, 188);
+    font-size: 20px;
+}
+.fa-indian-rupee-sign{
+    color: rgb(207, 56, 61);
+    font-size: 20px;
+}
+.main{
+    width: 100%;
+    height: 75vh;
+    background-color: aqua;
+    position: relative;
+    top: -1850px;
+    
+}
+.main #para{
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.main .para1{
+    text-align: left;
+    position: relative;
+    top: 60px;
+    left: 180px;
+    font-size: 25px;
+    color: black;
+
+}
+.fa-caret-right{
+    color: rgb(171, 17, 17);
+    position: relative;
+    top: 85px;
+    left: 150px;
+    font-size: 25px;
+}
+b{
+    color: green;
+}
+
+

@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+nav:hover{
+    border: 2px solid blue;
+}
+nav div:hover{
+    border: 2px solid rgb(20, 178, 49);
+    border-radius: 3px;
+   
+    color: brown;
+}
+.img1 img{
+    width: 250px;
+    height: 120px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease all;
+    font-weight: bold;
+    font-size: 20px;
+}
+.con{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.9108893557422969) 100%);
+    width: 100%;
+    height: 153vh;
+}
+.con2 form{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    top: 80px;
+    left: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    /* border-radius: 5px;
+    padding: 40px; */
+    padding: 100px;
+    
+}
+.con2 form{
+    width: 800px;                                                                                   /*To apply border image for using repeat linear gradient method*/
+    border: 30px solid;
+    border-image: repeating-linear-gradient(45deg,#f33,#3bf,#f33 30px) 60;
+    padding: 20px;
+
+}
+input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+label{
+    position: relative;
+    left: -125px;
+    top: 25px;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="email"] {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+input[type="email"]:valid{
+    background-color: green;
+    color: burlywood;
+}
+input[type="tel"] {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+    padding: 3px 10px;
+    border-radius: 3px;
+    top: 10px;
+    left: 28px;
+    position: relative;
+
+}
+textarea:focus{
+    background-color: gray;
+    color: white;
+}
+input[type=text]:focus{
+    background-color: blue;
+    color: white;
+}
+input[type=email]:focus{
+    background-color: blue;
+    color: white;
+}
+input[type=tel]:focus{
+    background-color: blue;
+    color: white;
+}
+button{
+    position: relative;
+    top: 30px;
+    left: -50px;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+.resetbtn{
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+::placeholder{
+    color: brown;
+
+}
+button:hover{
+    background: rgb(36,38,37);
+    background: linear-gradient(4deg, rgba(36,38,37,1) 0%, rgba(10,37,52,1) 64%, rgba(114,121,131,0.0845588235294118) 100%);
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    position: relative;
+    top: 180px;
+    
+    
+}
+footer:hover{
+    border: 2px solid goldenrod;
+}
+.foot .img2 img{
+    width: 300px;
+    height: 230px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+}
+.manag{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.admis{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.fa-location-dot{
+    font-size: 25px;
+    color: brown;
+    position: relative;
+    left: -20px;
+
+}
+.fa-phone{
+    font-size: 25px;
+    color: green;
+}
+.fa-envelope{
+    font-size: 25px;
+    color: brown;
+    position: relative;
+    left: -10px;
+}
